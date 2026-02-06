@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  padding: 30px 20px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.App-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  color: #63b3ed;
+}
+
+.App-header p {
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: #a0aec0;
+}
+
+.App-header .subtitle {
+  font-size: 1em;
+  color: #718096;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.navigation {
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-buttons {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.nav-buttons button {
+  padding: 12px 24px;
+  background-color: #edf2f7;
+  border: 2px solid #cbd5e0;
+  border-radius: 8px;
+  color: #4a5568;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-buttons button:hover {
+  background-color: #e2e8f0;
+  transform: translateY(-2px);
+}
+
+.nav-buttons button.active {
+  background-color: #4299e1;
+  color: white;
+  border-color: #4299e1;
+}
+
+main {
+  flex: 1;
+  padding: 30px 20px;
+  background-color: #f7fafc;
+}
+
+.App-footer {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  color: white;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #4a5568;
+}
+
+.App-footer p {
+  margin: 5px 0;
+  color: #a0aec0;
+}
